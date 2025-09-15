@@ -1,0 +1,8 @@
+[project]
+name = "llm-app"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "transformers>=4.56.1",
+]
