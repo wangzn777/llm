@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d511557e-fb65-4d7b-81f2-184967449154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/llm-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/bert/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/blip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/clip/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/dino/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/flava/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/llama/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/model/llava/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/model/CLIP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/model/FLAVA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +38,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -93,11 +73,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757933318395</updated>
-      <workItem from="1757933319904" duration="796000" />
+      <workItem from="1757933319904" duration="1165000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/llm_app$main.coverage" NAME="main Coverage Results" MODIFIED="1757934342068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
