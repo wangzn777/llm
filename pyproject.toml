@@ -5,8 +5,8 @@ description = "Add your description here"
 requires-python = ">=3.11"
 dependencies = [
     "pillow>=11.3.0",
-    "torch>=2.8.0",
-    "torchtext>=0.18.0",
-    "torchvision>=0.23.0",
+    "torch>=2.2.2",
+    "torchtext>=0.17.2",
+    "torchvision>=0.17.2",
     "transformers>=4.56.1",
 ]
