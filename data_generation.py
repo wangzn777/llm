@@ -182,3 +182,6 @@ train_df_filtered.to_csv(os.path.join(clue_dataset_dir, 'congrence-cohrence-trai
 # Question:
 # 置信区间用在哪了？最后生成的数据还是不太懂。
 # 数据生成部分解释。
+# 1. negatives are always the lowest ones
+# 2. negatives总是采样于items低于一个确定threshold
+# 3.看一下Ananet的dataset是否对congruence- incongruence有帮助
