@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.11"
 dependencies = [
+    "pandas>=2.3.3",
     "pillow>=11.3.0",
     "torch>=2.2.2",
     "torchtext>=0.17.2",
