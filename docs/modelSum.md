@@ -78,15 +78,14 @@
    - Pretraining includes both unimodal and multimodal pathways.
 
 5. Training Objective
-
-FLAVA uses a mixture of pretraining objectives:
-   - Unimodal:
-   - Masked Language Modeling (MLM).
-   - Masked Image Modeling (MIM).
-   - Multimodal:
-   - Contrastive Learning (image–text alignment, like CLIP).
-   - Masked Multimodal Modeling (predict masked tokens/patches jointly).
-   - Global Matching (determine if image–text pair matches).
+   - FLAVA uses a mixture of pretraining objectives:
+     - Unimodal:
+     - Masked Language Modeling (MLM).
+     - Masked Image Modeling (MIM).
+     - Multimodal:
+     - Contrastive Learning (image–text alignment, like CLIP).
+     - Masked Multimodal Modeling (predict masked tokens/patches jointly).
+     - Global Matching (determine if image–text pair matches).
   
 6. Optimization & Training Setup
    - Pretrained on a mixture of large-scale multimodal datasets (image–text pairs, text corpora, image datasets).
